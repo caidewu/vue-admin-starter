@@ -1,6 +1,10 @@
 <template>
   <v-app>
-    <router-view/>
+    <transition>
+      <keep-alive>
+        <router-view></router-view>
+      </keep-alive>
+    </transition>
   </v-app>
 </template>
 

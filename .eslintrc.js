@@ -14,6 +14,7 @@ module.exports = {
       'js': 'never',
       'vue': 'never'
     }],
+    'max-len': 'off',
   },
   parserOptions: {
     parser: 'babel-eslint',
